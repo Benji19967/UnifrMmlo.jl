@@ -1,2 +1,2 @@
-week01:
-	julia --project src/week01.jl
+week01_ex0:
+	julia --project src/week01/ex0.jl

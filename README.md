@@ -9,12 +9,14 @@ Entering package mode:
 `julia`  
 `julia> ]`  
 
-## Generating this project
-
-`pkg> generate Mmlo`
-
 ## Adding packages
 
-`cd Mmlo`  
 `pkg> activate .`  
-`(Mmlo) pkg> add <package-name>`  
+`(UnifrMmlo) pkg> add <package-name>`  
+
+## Installing packages from a Project.toml file
+
+`julia --project=.`  
+`]`  
+`instantiate`  
+

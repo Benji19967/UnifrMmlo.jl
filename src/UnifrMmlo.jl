@@ -1,4 +1,4 @@
-module Mmlo
+module UnifrMmlo
 
 greet() = print("Hello World!")
 

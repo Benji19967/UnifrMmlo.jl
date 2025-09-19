@@ -6,7 +6,9 @@ version = "0.1.0"
 [deps]
 HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LanguageServer = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
 
 [compat]
 HiGHS = "1.19.0"
 JuMP = "1.29.1"
+LanguageServer = "4.1.0"

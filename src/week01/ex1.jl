@@ -4,7 +4,7 @@ using HiGHS
 model = Model(HiGHS.Optimizer)
 show(model)
 
-@variable(model, x[1:2] >= 0, Int)
+@variable(model, x[1:2] >= 0)
 
 @constraint(model, c1, 2x[1] + 4x[2] <= 26)
 @constraint(model, c2, 4x[1] + 1x[2] <= 17)

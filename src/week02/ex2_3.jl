@@ -20,7 +20,7 @@ show(model)
 @constraint(model, c3, p - 200_000 + x == 0)
 @constraint(model, c4, b + r + l + p - 1_000_000 + y == 0)
 
-@objective(model, Min, -(1.08b + 1.10r + 1.08l + 1.13p))
+@objective(model, Min, -(1.06b + 1.10r + 1.08l + 1.13p))
 
 
 print(model)

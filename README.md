@@ -20,3 +20,8 @@ Entering package mode:
 `]`  
 `instantiate`  
 
+## Using Gurobi with license file
+
+```
+export GRB_LICENSE_FILE=<path to file>
+```
